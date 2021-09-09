@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>home</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
@@ -18,6 +18,6 @@
     </body>
 
     <footer>
-        <p>&copy; Copyrigth 2021 &middot; <a href="">About us </a></p>
+        <p>&copy; Copyrigth 2021 &middot; <a href="/about-us">About us </a></p>
     </footer>
 </html>
