@@ -8,16 +8,21 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 
     <!-- Styles -->
 
 </head>
-<body>
-    @yield('content')
-    {{env('APP_NAME')}}
+<body class="py-6 flex flex-col justify-between min-h-screen items-center">
+
+    <main role="main" class="flex flex-col justify-center items-center">
+        @yield('content')
+    </main>
+
+
 </body>
 
 <footer>
-    <p>&copy; Copyrigth 2021 @yield('footer')</p>
+    <p class="text-grey-400">&copy; Copyrigth 2021 @yield('footer')</p>
 </footer>
 </html>
