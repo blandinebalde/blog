@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>About us | home</title>
+    <title> @yield('title',env('APP_NAME'))</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
@@ -13,11 +13,11 @@
 
 </head>
 <body>
-<h1>Build with &heartsuit; By blandine</h1>
-<p><a href="/">Revenir a la page d'acceuil</a></p>
+    @yield('content')
+    {{env('APP_NAME')}}
 </body>
 
 <footer>
-    <p>&copy; Copyrigth 2021 &middot; <a href="/about-us">About us </a></p>
+    <p>&copy; Copyrigth 2021 @yield('footer')</p>
 </footer>
 </html>
